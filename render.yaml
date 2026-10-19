@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: paper-flight
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/status
